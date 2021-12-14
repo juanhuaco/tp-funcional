@@ -1,0 +1,5 @@
+#lang racket
+
+(define (ambos pred?)
+  (lambda (a b)
+    (and (pred? a) (pred? b))))
